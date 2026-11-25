@@ -1,0 +1,35 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.eggs/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- 数据与输出（按需取消注释）----
+# *.csv
+# *.xlsx
+# 号码记录.txt
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 环境变量与密钥 ----
+.env
+.env.*
+*.pem
+*.key
+secrets.*
